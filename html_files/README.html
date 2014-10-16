@@ -43,7 +43,9 @@
   </head>
   <script>
     $(document).ready(function() {
-      $('#header').contents().find('span').remove()
+      setInterval(function() {
+        $('#header').contents().find('span').remove()
+      }, 400);
     });
   </script>
   <body>
