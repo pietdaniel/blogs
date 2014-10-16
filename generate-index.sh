@@ -7,8 +7,8 @@ for file in `ls ./ | grep "\.md"`
   do
     html_name=`echo $file | sed -e "s/\.md/\.html/g"`
     name=`echo $file | sed -e "s/\.md//g"`
-    out="- [http://piet.us/blog/$html_name]($name)"
-    echo $html_name
+    out="- [$name](http://piet.us/blog/$html_name)"
+    echo $file
     echo $out >> temp.html
   done
-mv temp.html index.html
+mv temp.html index.md
