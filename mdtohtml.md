@@ -2,9 +2,9 @@
 
 ## About
 
-> This is a simple script that uses highlight js and markdowns native markdown to html converter to turn md files into viewable web pages
-> More info on markdown can be found [here](http://daringfireball.net/projects/markdown/)
-> I built this to sovle the problem of not retaining syntax highlight when converting markdown to html.
+> [This](http://github.com/pietdaniel/mdtohtml) is a simple script that uses highlight js and markdowns native markdown to html converter to turn md files into viewable web pages.
+> More info on markdown can be found [here](http://daringfireball.net/projects/markdown/).
+> I built this to solve the problem of not retaining syntax highlighting when converting markdown to html.
 
 ----------------
 

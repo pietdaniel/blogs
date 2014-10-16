@@ -187,8 +187,5 @@ This worked mildly well, but I wanted better results. Hence using [jp2a](http://
 for file in `ls img/`; do jp2a --invert usr/$file > ascii/$file".txt"; done;
 ```
 <br>
-<br>
-<br>
-<br>
 *fin.*
 ====

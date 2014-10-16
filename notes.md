@@ -257,7 +257,5 @@ $ service notesd start
 
 > Really this was a quick fun project to kill some time. In the process I got to get more familiar with some cool technologies and enjoyed solving the problems with minimal effort. A working copy can be viewed on my site [here](http://piet.us/note). As well as the source code on my [github](http://github.com/pietdaniel/notes)
 <br>
-<br>
-<br>
 *fin.*
 ====

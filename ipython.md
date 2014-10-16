@@ -64,6 +64,5 @@ plt.contourf(x,y,z)
 ```
 <br>
 <br>
-<br>
 *fin.*
 ====
