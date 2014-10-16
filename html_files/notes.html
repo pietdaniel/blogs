@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="hljs/styles/default.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="hljs/highlight.pack.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
     <style>
@@ -14,13 +15,46 @@
      .container {
        padding: 10px 30px 10px 30px;
      }
+     a:visited {
+       color: #777;
+     }
+     a:hover {
+       color: #f00;
+     }
+     a {
+       color: #222;
+       text-decoration: none;
+     }
+     body {
+      background: #f0f0f0;
+     }
+     #header {
+      width: 100%;
+      border: none;
+      top: 0px;
+      left: 0px;
+      height: 200px;
+      position: fixed;
+     }
+     #space {
+      height:200px;
+     }
     </style>
   </head>
+  <script>
+  $(document).ready(function() {
+    $('#header').contents().find('span').css({
+        opacity: 0
+      });
+  });
+  </script>
   <body>
+    <iframe id="header" src="http://piet.us/"></iframe>
+    <div id="space"></div>
     <div class="container">
 <h1>Building a simple persistent note board</h1>
 
-<p>An <a href="piet.us/note">example</a> can be seen <a href="piet.us/note">here</a></p>
+<p>An <a href="http://piet.us/note">example</a> can be seen <a href="http://piet.us/note">here</a>. The full source is hosted <a href="http://github.com/pietdaniel/notes">here</a></p>
 
 <h2>But why?</h2>
 
@@ -299,8 +333,6 @@ $ service notesd start
 
 <blockquote>
   <p>Really this was a quick fun project to kill some time. In the process I got to get more familiar with some cool technologies and enjoyed solving the problems with minimal effort. A working copy can be viewed on my site <a href="http://piet.us/note">here</a>. As well as the source code on my <a href="http://github.com/pietdaniel/notes">github</a>
-<br>
-<br>
 <br></p>
 
 <h1><em>fin.</em></h1>
