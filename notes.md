@@ -1,6 +1,6 @@
 # Building a simple persistent note board
 
-An [example](piet.us/note) can be seen [here](piet.us/note)
+An [example](http://piet.us/note) can be seen [here](http://piet.us/note)
 
 ## But why?
 
