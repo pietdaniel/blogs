@@ -1,6 +1,6 @@
 # Building a simple persistent note board
 
-An [example](http://piet.us/note) can be seen [here](http://piet.us/note)
+An [example](http://piet.us/note) can be seen [here](http://piet.us/note). The full source is hosted [here](http://github.com/pietdaniel/notes)
 
 ## But why?
 
